@@ -1,0 +1,57 @@
+<problem display_name="Multiple Choice" markdown="1. The voltage across the contacts during the arcing period is known as&#10;&#10;()    Recovery voltage&#10; ()   Restriking voltage&#10; (x)   Arc voltage&#10;  () All&#10;  &#10;  2. The function of __________ is to isolate the part of the power system in case of abnormal conditions.&#10;&#10;    (x) Circuit Breaker&#10;   () Isolator&#10;   () Insulator&#10;   () All&#10;   &#10;   3. In oil circuit breaker (O.C.B) the range exists between&#10;&#10;   () 250MVA at 2.5 kV and 5000MVA at 250kV&#10;  ()  7.5MVA at 2.5 kV and 50000MVA at 250kV&#10;   (x) 25MVA at 2.5 kV and 5000MVA at 250kV&#10;   () 75MVA at 2.5 kV and 50000MVA at 250kV&#10;   &#10;   4. The transient voltage appearing across the contacts during arc period is called ________&#10;&#10;  ()  Recovery voltage&#10; ()   Arc voltage&#10; (x)   Restriking voltage&#10; ()   All&#10; &#10; 5. _________ is the r.m.s value of current which the Circuit breaker is capable of carrying continuously at its rated frequency under specified conditions.&#10;&#10; ()   Short-time capacity&#10; ()   Making capacity&#10; (x)   None&#10;  ()  Breaking capacity&#10;   ">
+<p>1. The voltage across the contacts during the arcing period is known as</p>
+<multiplechoiceresponse>
+  <choicegroup type="MultipleChoice">
+    <choice correct="false">Recovery voltage</choice>
+    <choice correct="false">Restriking voltage</choice>
+    <choice correct="true">Arc voltage</choice>
+    <choice correct="false">All</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>  </p>
+<p>  2. The function of __________ is to isolate the part of the power system in case of abnormal conditions.</p>
+<multiplechoiceresponse>
+  <choicegroup type="MultipleChoice">
+    <choice correct="true">Circuit Breaker</choice>
+    <choice correct="false">Isolator</choice>
+    <choice correct="false">Insulator</choice>
+    <choice correct="false">All</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>   </p>
+<p>   3. In oil circuit breaker (O.C.B) the range exists between</p>
+<multiplechoiceresponse>
+  <choicegroup type="MultipleChoice">
+    <choice correct="false">250MVA at 2.5 kV and 5000MVA at 250kV</choice>
+    <choice correct="false">7.5MVA at 2.5 kV and 50000MVA at 250kV</choice>
+    <choice correct="true">25MVA at 2.5 kV and 5000MVA at 250kV</choice>
+    <choice correct="false">75MVA at 2.5 kV and 50000MVA at 250kV</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>   </p>
+<p>   4. The transient voltage appearing across the contacts during arc period is called ________</p>
+<multiplechoiceresponse>
+  <choicegroup type="MultipleChoice">
+    <choice correct="false">Recovery voltage</choice>
+    <choice correct="false">Arc voltage</choice>
+    <choice correct="true">Restriking voltage</choice>
+    <choice correct="false">All</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p> </p>
+<p> 5. _________ is the r.m.s value of current which the Circuit breaker is capable of carrying continuously at its rated frequency under specified conditions.</p>
+<multiplechoiceresponse>
+  <choicegroup type="MultipleChoice">
+    <choice correct="false">Short-time capacity</choice>
+    <choice correct="false">Making capacity</choice>
+    <choice correct="true">None</choice>
+    <choice correct="false">Breaking capacity</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>   </p>
+</problem>

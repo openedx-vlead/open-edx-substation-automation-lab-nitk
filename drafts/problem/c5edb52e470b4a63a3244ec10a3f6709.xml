@@ -1,0 +1,53 @@
+<problem display_name="Multiple Choice" markdown="1. A potential transformer is a&#10;&#10;()    None&#10;()    Step up transformer&#10;(x)    Step down transformer&#10;()    Both Step up transformer and Step down transformer&#10;&#10;2. Oil transformer usually consist of,&#10;&#10;()    Breather of dehydrating type&#10;()    Winding temperature-indicator, oil temperature indicator&#10;()    A conservator tank, buchholz relay&#10;(x)    All&#10;&#10;&#10;3. In case of, OFF circuit taps, the transformer must be _________ before the tap changer mechanism is operated.&#10;&#10;  (x)  De-energized&#10;  ()  Energized&#10;  ()  Both Energized and De-energized&#10;  &#10;  4. Current ratios are in _________ of the voltage ratio.&#10;&#10;  (x)  Inverse ratio&#10;  ()  Direct ratio&#10;  &#10;  &#10;  5. _________ is used to make sure that an electrical circuit can be completely de-energized for service or maintenance.&#10;&#10;  ()  Circuit breaker&#10;  (x)  Isolator&#10;   () Fuse&#10;  ()  None">
+<p>1. A potential transformer is a</p>
+<multiplechoiceresponse>
+  <choicegroup type="MultipleChoice">
+    <choice correct="false">None</choice>
+    <choice correct="false">Step up transformer</choice>
+    <choice correct="true">Step down transformer</choice>
+    <choice correct="false">Both Step up transformer and Step down transformer</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>2. Oil transformer usually consist of,</p>
+<multiplechoiceresponse>
+  <choicegroup type="MultipleChoice">
+    <choice correct="false">Breather of dehydrating type</choice>
+    <choice correct="false">Winding temperature-indicator, oil temperature indicator</choice>
+    <choice correct="false">A conservator tank, buchholz relay</choice>
+    <choice correct="true">All</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>3. In case of, OFF circuit taps, the transformer must be _________ before the tap changer mechanism is operated.</p>
+<multiplechoiceresponse>
+  <choicegroup type="MultipleChoice">
+    <choice correct="true">De-energized</choice>
+    <choice correct="false">Energized</choice>
+    <choice correct="false">Both Energized and De-energized</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>  </p>
+<p>  4. Current ratios are in _________ of the voltage ratio.</p>
+<multiplechoiceresponse>
+  <choicegroup type="MultipleChoice">
+    <choice correct="true">Inverse ratio</choice>
+    <choice correct="false">Direct ratio</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>  </p>
+<p>  </p>
+<p>  5. _________ is used to make sure that an electrical circuit can be completely de-energized for service or maintenance.</p>
+<multiplechoiceresponse>
+  <choicegroup type="MultipleChoice">
+    <choice correct="false">Circuit breaker</choice>
+    <choice correct="true">Isolator</choice>
+    <choice correct="false">Fuse</choice>
+    <choice correct="false">None</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+
+</problem>

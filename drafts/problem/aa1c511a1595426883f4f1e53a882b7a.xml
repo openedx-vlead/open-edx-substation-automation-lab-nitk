@@ -1,0 +1,59 @@
+<problem display_name="Multiple Choice" markdown="1. Advantages of using Air blast Circuit breakers :&#10;&#10;()    Current chopping&#10; ()   All&#10;  (x)  Short arc duration&#10;  ()  Sensitivity to restricting voltage&#10;  &#10;  2. Potential transformers are carefully designed to ensure&#10;&#10;  ()  Minimum variation of voltage ratio with load and minimum phase shift between input and output voltages&#10;  (x)  Maximum variation of voltage ratio with load and minimum phase shift between input and output voltages&#10;  ()  Minimum variation of voltage ratio with load and maximum phase shift between input and output voltages&#10;  ()  Maximum variation of voltage ratio with load and maximum phase shift between input and output voltages&#10;  &#10;  3. Instrument transformers are classified as:&#10;&#10;  (x)  Both Potential transformer and Current transformer&#10;  ()  Potential transformer&#10;  ()  None&#10;  ()  Current transformer&#10;  &#10;  &#10;  4. Potential transformers are made with&#10;&#10;  ()  High quality icon core operating at very high flex density so that the magnetizing current may be large&#10;  ()  Low quality icon core operating at very low flex density so that the magnetizing current may be large&#10;  ()  High quality icon core operating at very high flex density so that the magnetizing current may be very small&#10;  (x)  High quality icon core operating at very low flex density so that the magnetizing current may be very small&#10;  &#10;  &#10;  5. When low inductive current is interrupted by a Circuit breaker and the arc generating force of the Circuit breaker and is more than necessary to interrupt a low magnitude of current, the current will be interrupted before its natural zero instant. It is termed as&#10;&#10; ()   Arcing voltage&#10; ()   Restriking&#10; ()   Recovery instant&#10;  (x)  Current chopping">
+<p>1. Advantages of using Air blast Circuit breakers :</p>
+<multiplechoiceresponse>
+  <choicegroup type="MultipleChoice">
+    <choice correct="false">Current chopping</choice>
+    <choice correct="false">All</choice>
+    <choice correct="true">Short arc duration</choice>
+    <choice correct="false">Sensitivity to restricting voltage</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>  </p>
+<p>  2. Potential transformers are carefully designed to ensure</p>
+<multiplechoiceresponse>
+  <choicegroup type="MultipleChoice">
+    <choice correct="false">Minimum variation of voltage ratio with load and minimum phase shift between input and output voltages</choice>
+    <choice correct="true">Maximum variation of voltage ratio with load and minimum phase shift between input and output voltages</choice>
+    <choice correct="false">Minimum variation of voltage ratio with load and maximum phase shift between input and output voltages</choice>
+    <choice correct="false">Maximum variation of voltage ratio with load and maximum phase shift between input and output voltages</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>  </p>
+<p>  3. Instrument transformers are classified as:</p>
+<multiplechoiceresponse>
+  <choicegroup type="MultipleChoice">
+    <choice correct="true">Both Potential transformer and Current transformer</choice>
+    <choice correct="false">Potential transformer</choice>
+    <choice correct="false">None</choice>
+    <choice correct="false">Current transformer</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>  </p>
+<p>  </p>
+<p>  4. Potential transformers are made with</p>
+<multiplechoiceresponse>
+  <choicegroup type="MultipleChoice">
+    <choice correct="false">High quality icon core operating at very high flex density so that the magnetizing current may be large</choice>
+    <choice correct="false">Low quality icon core operating at very low flex density so that the magnetizing current may be large</choice>
+    <choice correct="false">High quality icon core operating at very high flex density so that the magnetizing current may be very small</choice>
+    <choice correct="true">High quality icon core operating at very low flex density so that the magnetizing current may be very small</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>  </p>
+<p>  </p>
+<p>  5. When low inductive current is interrupted by a Circuit breaker and the arc generating force of the Circuit breaker and is more than necessary to interrupt a low magnitude of current, the current will be interrupted before its natural zero instant. It is termed as</p>
+<multiplechoiceresponse>
+  <choicegroup type="MultipleChoice">
+    <choice correct="false">Arcing voltage</choice>
+    <choice correct="false">Restriking</choice>
+    <choice correct="false">Recovery instant</choice>
+    <choice correct="true">Current chopping</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+
+</problem>

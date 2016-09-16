@@ -1,0 +1,57 @@
+<problem display_name="Multiple Choice" markdown="1. The alternating magnetic flues in a conductor caused by the current flowing in a neighbouring conductor gives rise to circulating currents which cause an apparent increases in the resistance of the conductor. This phenomena is called ________ .&#10;&#10;()    Skin effect&#10;  ()  Corona effect&#10;  (x)  Proximity effect&#10;  ()  None&#10;  &#10;  2. The sag in aluminium conductors is __________ the copper conductors.&#10;&#10;  ()  Lesser than&#10; (x)   Greater than&#10;  ()  Equal to&#10;  ()  2 times lesser than&#10;  &#10;  3. Copper conductor is&#10;&#10;(x)    All&#10; ()   It has high current density, so lesser X-sectional area of conductor is required&#10; ()   Homogenous material&#10; ()   Highly durable and has high scrap value&#10; &#10; 4. The skin effect is negligible when the supply frequency is ________ and the conductor diameter is _________.&#10;&#10;  ()  High, Large&#10;  ()  High, Small&#10;  (x)  Low ,Small&#10;  ()  Low ,Large&#10;  &#10;  5. The factor which effect skin and proximity effects are ______________&#10;&#10; ()   Size of the conductor and distance between the conductors&#10;()    Frequency of the current&#10; (x)   All&#10; ()   Permeability of the conductor material">
+<p>1. The alternating magnetic flues in a conductor caused by the current flowing in a neighbouring conductor gives rise to circulating currents which cause an apparent increases in the resistance of the conductor. This phenomena is called ________ .</p>
+<multiplechoiceresponse>
+  <choicegroup type="MultipleChoice">
+    <choice correct="false">Skin effect</choice>
+    <choice correct="false">Corona effect</choice>
+    <choice correct="true">Proximity effect</choice>
+    <choice correct="false">None</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>  </p>
+<p>  2. The sag in aluminium conductors is __________ the copper conductors.</p>
+<multiplechoiceresponse>
+  <choicegroup type="MultipleChoice">
+    <choice correct="false">Lesser than</choice>
+    <choice correct="true">Greater than</choice>
+    <choice correct="false">Equal to</choice>
+    <choice correct="false">2 times lesser than</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>  </p>
+<p>  3. Copper conductor is</p>
+<multiplechoiceresponse>
+  <choicegroup type="MultipleChoice">
+    <choice correct="true">All</choice>
+    <choice correct="false">It has high current density, so lesser X-sectional area of conductor is required</choice>
+    <choice correct="false">Homogenous material</choice>
+    <choice correct="false">Highly durable and has high scrap value</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p> </p>
+<p> 4. The skin effect is negligible when the supply frequency is ________ and the conductor diameter is _________.</p>
+<multiplechoiceresponse>
+  <choicegroup type="MultipleChoice">
+    <choice correct="false">High, Large</choice>
+    <choice correct="false">High, Small</choice>
+    <choice correct="true">Low ,Small</choice>
+    <choice correct="false">Low ,Large</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>  </p>
+<p>  5. The factor which effect skin and proximity effects are ______________</p>
+<multiplechoiceresponse>
+  <choicegroup type="MultipleChoice">
+    <choice correct="false">Size of the conductor and distance between the conductors</choice>
+    <choice correct="false">Frequency of the current</choice>
+    <choice correct="true">All</choice>
+    <choice correct="false">Permeability of the conductor material</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+
+</problem>

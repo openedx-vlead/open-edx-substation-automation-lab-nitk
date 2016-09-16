@@ -1,0 +1,56 @@
+<problem display_name="Multiple Choice" markdown="1. Aluminium is ______________ in weight as compared to copper, but has _________ conductivity and tensile strength.&#10;&#10;  ()  Heavier, Smaller&#10; (x)   Lighter, Smaller&#10;  ()  Lighter, Greater&#10;  ()  Heavier, Greater&#10;  &#10;  2. Copper conductor is&#10;&#10; ()   Highly durable and has high scrap value&#10; ()   Homogenous material&#10; ()   It has high current density, so lesser X-sectional area of conductor is required&#10; (x)   All&#10; &#10; 3. Lighting arrestor are also called as __________&#10;&#10;(x)    Surge arrestor&#10; ()   Capacitive detector&#10; ()   All&#10; ()   Charge inhibitor&#10; &#10; 4. _________ is a device which is used to switch from one bus to the other without any interruption in power supply and without creating hazardous arcs.&#10;&#10;()    Any of the them&#10;()    Circuit breaker&#10;()    Bus coupler&#10; ()   Isolator&#10; 5. The sag in aluminium conductors is __________ the copper conductors.&#10;&#10; (x)   Greater than&#10;  ()  Equal to&#10;  ()  Lesser than&#10;  ()  2 times lesser than">
+<p>1. Aluminium is ______________ in weight as compared to copper, but has _________ conductivity and tensile strength.</p>
+<multiplechoiceresponse>
+  <choicegroup type="MultipleChoice">
+    <choice correct="false">Heavier, Smaller</choice>
+    <choice correct="true">Lighter, Smaller</choice>
+    <choice correct="false">Lighter, Greater</choice>
+    <choice correct="false">Heavier, Greater</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>  </p>
+<p>  2. Copper conductor is</p>
+<multiplechoiceresponse>
+  <choicegroup type="MultipleChoice">
+    <choice correct="false">Highly durable and has high scrap value</choice>
+    <choice correct="false">Homogenous material</choice>
+    <choice correct="false">It has high current density, so lesser X-sectional area of conductor is required</choice>
+    <choice correct="true">All</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p> </p>
+<p> 3. Lighting arrestor are also called as __________</p>
+<multiplechoiceresponse>
+  <choicegroup type="MultipleChoice">
+    <choice correct="true">Surge arrestor</choice>
+    <choice correct="false">Capacitive detector</choice>
+    <choice correct="false">All</choice>
+    <choice correct="false">Charge inhibitor</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p> </p>
+<p> 4. _________ is a device which is used to switch from one bus to the other without any interruption in power supply and without creating hazardous arcs.</p>
+<multiplechoiceresponse>
+  <choicegroup type="MultipleChoice">
+    <choice correct="false">Any of the them</choice>
+    <choice correct="false">Circuit breaker</choice>
+    <choice correct="false">Bus coupler</choice>
+    <choice correct="false">Isolator</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p> 5. The sag in aluminium conductors is __________ the copper conductors.</p>
+<multiplechoiceresponse>
+  <choicegroup type="MultipleChoice">
+    <choice correct="true">Greater than</choice>
+    <choice correct="false">Equal to</choice>
+    <choice correct="false">Lesser than</choice>
+    <choice correct="false">2 times lesser than</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+
+</problem>
