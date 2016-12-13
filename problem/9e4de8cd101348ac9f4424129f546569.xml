@@ -1,0 +1,44 @@
+<problem display_name="Multiple Choice" markdown="Question 1 of 4&#10;1. The advantage of using oil in OCB as an arc quenching medium is:&#10;&#10; ()   It has high dielectric strength&#10; (x)   Both It has high dielectric strength and As a result of decomposition of oil, it has good cooling property&#10;  ()  As a result of decomposition of oil, it has good cooling property&#10;  ()  Highly inflammable&#10;  &#10;  2. SF6 circuit breaker is __________&#10;&#10;  ()  Expensive&#10;  ()  SF6 gas has to be reconditioned after every operation of the breaker and additional equipment is required for these purposes&#10;  (x)  Both Expensive and SF6 gas has to be reconditioned after every operation of the breaker and additional equipment is required for these purposes&#10;  ()  None&#10;  &#10;  3. The important characteristics of the fluid used in CB are _______&#10;&#10; ()   It should have good thermal and chemical stability&#10; ()   Non- inflammability and high thermal conductivity&#10; ()   It should have high dielectric strength and are extinguish ability&#10; (x)   All&#10; &#10; 4. A circuit breaker is an automatically operated electrical switch designed to protect an electrical circuit from damage caused by ________ function of __________ is to isolate the part of the power system in case of abnormal conditions.&#10;&#10;  ()  None&#10;  ()  Short circuit&#10;  (x)  Both overhead and short circuit&#10;   () Overhead&#10;   &#10;   ">
+  <p>Question 1 of 4</p>
+  <p>1. The advantage of using oil in OCB as an arc quenching medium is:</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">It has high dielectric strength</choice>
+      <choice correct="true">Both It has high dielectric strength and As a result of decomposition of oil, it has good cooling property</choice>
+      <choice correct="false">As a result of decomposition of oil, it has good cooling property</choice>
+      <choice correct="false">Highly inflammable</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>  </p>
+  <p>  2. SF6 circuit breaker is __________</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">Expensive</choice>
+      <choice correct="false">SF6 gas has to be reconditioned after every operation of the breaker and additional equipment is required for these purposes</choice>
+      <choice correct="true">Both Expensive and SF6 gas has to be reconditioned after every operation of the breaker and additional equipment is required for these purposes</choice>
+      <choice correct="false">None</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>  </p>
+  <p>  3. The important characteristics of the fluid used in CB are _______</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">It should have good thermal and chemical stability</choice>
+      <choice correct="false">Non- inflammability and high thermal conductivity</choice>
+      <choice correct="false">It should have high dielectric strength and are extinguish ability</choice>
+      <choice correct="true">All</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p> </p>
+  <p> 4. A circuit breaker is an automatically operated electrical switch designed to protect an electrical circuit from damage caused by ________ function of __________ is to isolate the part of the power system in case of abnormal conditions.</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">None</choice>
+      <choice correct="false">Short circuit</choice>
+      <choice correct="true">Both overhead and short circuit</choice>
+      <choice correct="false">Overhead</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>   </p>
+  <p>   </p>
+</problem>

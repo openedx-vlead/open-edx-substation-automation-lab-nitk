@@ -1,0 +1,174 @@
+<p><font size="4"> <b>CONTENTS:</b></font></p>
+<ol type="1">
+<li>Introduction</li>
+<li>Architecture</li>
+<li>CPU</li>
+<li>Analog Input Module</li>
+<li>Digital Input Module</li>
+<li>Analog Output Module</li>
+<li>Digital Output Module</li>
+<li>Communication System</li>
+<li>Human Interface system (HIS)</li>
+<li>Applications</li>
+</ol>
+<p><font size="4"> <b>Introduction:</b></font></p>
+<p>A distributed control system (DCS) refers to a control system usually of a manufacturing system, process or any kind of dynamic system, in which the controller elements are not central in location (like the brain) but are distributed throughout the system with each component sub-system controlled by one or more controllers. The entire system of controllers is connected by networks for communication and monitoring. DCS is a very broad term used in a variety of industries, to monitor and control distributed equipment.<br /> A DCS typically uses custom designed processors as controllers and uses both proprietary interconnections and communications protocol for communication. Input and output modules form component parts of the DCS. The processor receives information from input modules and sends information to output modules. The input modules receive information from input instruments in the process (or field) and transmit instructions to the output instruments in the field. Computer buses or electrical buses connect the processor and modules through multiplexer or demultiplexers. Buses also connect the distributed controllers with the central controller and finally to the Human&ndash;machine interface (HMI) or control consoles.<br /> CENTUM is the generic name of Yokogawa&rsquo;s distributed control systems (referred to as &ldquo;DCS&rdquo; ) for small- and medium-scale plants (CENTUM CS 1000), and for large scale plants (CENTUM CS 3000).</p>
+<p><font size="4"> <b>Architecture:</b></font></p>
+<p>The hardware architecture of CENTUM CS 1000 has been shown below in given figure. The description of CENTUM CS 1000 has been given after subdividing it in some smaller areas as CPU, Battery Units, Power supply units, I/O Modules, communication cards, Human interface system (HIS).</p>
+<p></p>
+<center><img src="http://sa-nitk.vlabs.ac.in/images/DCST/1.gif" height="450" width="500" /></center>
+<p><font size="4"> <b>CPU:</b></font></p>
+<center><img src="http://sa-nitk.vlabs.ac.in/images/DCST/2.gif" height="400" width="500" /><center><b>INTERNAL BLOCK DIAGRAM OF CPU CARD</b></center></center>
+<p></p>
+<p>There are two models of CPU card: The CP701 for basic systems and CP 703 for enhanced systems. The basic system model has 8 MB of memory, while the enhanced system model has 16 MB. The model chosen depends on the type of system software used. The main memory is ensured of high reliability by error correction code (ECC).<br /> The redundancy architecture of the CPU is referred to as a synchronous hot standby system, which is the fundamentally the same as that of the CENTUM CS, the only difference being the addition of the new error detection and protection functions. These functions set write protected areas in each CPU card to protect the program and database areas against illegal address writing instruction from the other CPU card, and thereby prevents both card from failing due to illegal accesses caused by malfunctions in MPU. Other newly added functions include the memory management unit (MMU) and write protection which ensure data integrity, the parity check of addresses and data, the ECC memory, and a two wire signal self checker.</p>
+<p><font size="3"> <b>Power Supply Card:</b></font></p>
+<p>The power supply card is designed to supply power to the common nests, such as the CPU cards, and up to five I/O module nests. Standardizing the output voltages to +5 V DC has simplified the circuit and structure and reduced the number of parts. This allowed a power-factor Improvement unit to be built in so as to comply with the aforementioned EN61000-3-2, class A standard (relating to power line harmonics). The +5V DC outputs from the two power supply cards pass through diodes so that they can be coupled externally for redundancy purposes.<br /> The input-voltage monitoring signal (AC ready) and output-voltage monitoring signal (DC ready) together with the guaranteed retention time of the +5V DC output, enable to control to continue over a temporary power failure. The output voltage retention time immediately after a power failure is clearly defined in the specifications since it is closely related to the software saving process in the CPU card.</p>
+<p><font size="3"> <b>Nest Configuration:</b></font></p>
+<p>The FCS nest is composed of VL Net couplers, battery units for backing up the CPUs&rsquo; main memory, a backboard, a power distribution board, and a ready signal output unit in addition to the CPU cards and power supply card. A FCS model has five I/O modules nest.</p>
+<center><img src="http://sa-nitk.vlabs.ac.in/images/DCST/3.gif" height="250" width="200" /><center><b>Figure Nest Configuration</b></center></center>
+<p><font size="3"> <b>Power Supply Card:</b></font></p>
+<p>The I/O modules convert the analog or digital signals from the field equipment then pass to field control stations or vice versa to convert the signals from the field control station to the signals for the field equipment. The I/O module can be categorized into the following seven main types-</p>
+<ul type="disc">
+<li>Analog I/O module</li>
+<li>Multipoint control analog I/O module</li>
+<li>Relay I/O module</li>
+<li>Multiplexer module</li>
+<li>Digital I/O module</li>
+<li>Communication module</li>
+<li>Communication card</li>
+</ul>
+<p><font size="4"> <b>Analog Input Module:</b></font><br /><br /> List of I/O Modules Installable in Analog I/O Module Nest:</p>
+<center><img src="http://sa-nitk.vlabs.ac.in/images/DCST/4.gif" height="250" width="500" /></center>
+<p><br /> <b>Wiring of Analog I/O Module:</b> <br /> Models AAM10, AAM11, AAM11B, AAM21, AAM21J, APM11, AAM50, AAM51</p>
+<center><img src="http://sa-nitk.vlabs.ac.in/images/DCST/5.gif" height="400" width="550" /></center>
+<p></p>
+<p>If output signal between 1 - 5V DC needs to be output to a recorder, etc., connect the Model AKB301 cable to the (CN1) connector. For example, to output signal from the terminal block TE16 to the recorder, connect cable Model AKB301 between CN1 and the terminal block.</p>
+<p><font size="4"> <b>Digital I/O Module:</b></font></p>
+<p>The digital I/O module is configured by the card unit and either the terminal unit or connector unit. It inputs and outputs 16 or 32 signal points and converts signals. Since the types or I/O signals are software-set, no control switch or knob is found on this module.<br /> The table below shows the types of digital I/O modules.</p>
+<p></p>
+<center><img src="http://sa-nitk.vlabs.ac.in/images/DCST/6.gif" height="500" width="500" /></center>
+<p><br /> <font size="3"> <b>Wiring of Digital I/O Module (Connector Type):</b></font></p>
+<p>Digital I/O module (connector type)<br /> Models ADM11C, ADM12C, ADM51C, ADM52C</p>
+<center><img src="http://sa-nitk.vlabs.ac.in/images/DCST/7.gif" height="400" width="500" /><center><b>Figure Wiring of Digital I/O Module(connector type)</b></center></center>
+<p><font size="4"> <b>Communication Cards:</b></font></p>
+<p>The communication cards are used to realize the general-purpose communication of field control station and subsystems via serial links, so that the subsystem may be controlled or monitored.</p>
+<center><img src="http://sa-nitk.vlabs.ac.in/images/DCST/8.gif" height="400" width="500" /></center>
+<p><br /> Different from the above mentioned cards, the communication package with subsystems is prepared for ACM21 and ACM22 so that the general-purpose communication may be conveniently realized. The ACM71 Ethernet communication module receives/sends data from/to subsystems such as MELSEC via Ethernet. <b>Communication card models:</b></p>
+<ul type="disc">
+<li><b>ACM21</b>: RS-232C communication card</li>
+<li><b>ACM22</b>: RS-422/RS-485 communication card</li>
+<li><b>ACM71</b>: Ethernet communication module</li>
+</ul>
+<p><font size="4"> <b>HIS Operation And Monitoring Windows:</b></font></p>
+<p>There are different operational and monitoring windows, which have to define during designing Human Interface Station (HIS).The different windows are shown below:</p>
+<p></p>
+<ol type="1"><ol type="1">
+<li><b>Basic Windows for Operation and Monitoring</b><br />
+<table border="1">
+<tbody>
+<tr>
+<td align="left">1. System Message Window</td>
+</tr>
+<tr>
+<td align="left">2. Navigator Window</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol></ol>
+<p></p>
+<ol type="1"><ol type="1">
+<li><b>Windows Convenient for Operation and Monitoring</b><br />
+<table border="1">
+<tbody>
+<tr>
+<td align="left">1.Graphic Window</td>
+</tr>
+<tr>
+<td align="left">2. Trend Window</td>
+</tr>
+<tr>
+<td align="left">3. Tuning Window</td>
+</tr>
+<tr>
+<td align="left">4. Faceplate Window</td>
+</tr>
+<tr>
+<td align="left">5. Operator Guide Window</td>
+</tr>
+<tr>
+<td align="left">6. Process Alarm Window</td>
+</tr>
+<tr>
+<td align="left">7. Message Monitor Window</td>
+</tr>
+<tr>
+<td align="left">8. SFC Window</td>
+</tr>
+<tr>
+<td align="left">9. Logic Chart Window</td>
+</tr>
+<tr>
+<td align="left">10. Sequence Table Window</td>
+</tr>
+<tr>
+<td align="left">11. Control Drawing Window</td>
+</tr>
+<tr>
+<td align="left">12. Help Dialog Box</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol></ol>
+<p></p>
+<ol type="1"><ol type="1">
+<li><b>Windows for Batch Operation and Monitoring</b></li>
+</ol></ol>
+<p></p>
+<ol type="1"><ol type="1">
+<li><b>Windows for Process Status and Operation Record Configuration</b><br />
+<table border="1">
+<tbody>
+<tr>
+<td align="left">1. Process Report Window</td>
+</tr>
+<tr>
+<td align="left">2. Historical Message Report Window</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol></ol>
+<p></p>
+<ol type="1">
+<li><b>Windows for System Administration</b></li>
+</ol>
+<p><font size="3"> <b>How the HIS looks like:</b></font></p>
+<p>The human interface system programmed for a project/plan is designed in such a way that it would be easy for the operator to understand all the operations occurred in the plant. The example of visualization of a reactor control power plant has been given below:</p>
+<center><img src="http://sa-nitk.vlabs.ac.in/images/DCST/9.gif" height="400" width="500" /></center>
+<p><font size="3"> <b>Example2:</b></font></p>
+<p><b>Substation Automation</b>: Visualization of typical substation comprising two incomers and four feeders.</p>
+<center><img src="http://sa-nitk.vlabs.ac.in/images/DCST/10.gif" height="400" width="550" /></center>
+<p><font size="3"> <b>How the faceplate looks like:</b></font></p>
+<p>Faceplate window is a type of window, where the process variation, switch status has been displayed.</p>
+<center><img src="http://sa-nitk.vlabs.ac.in/images/DCST/11.gif" height="500" width="400" /></center>
+<p><font size="4"> <b>Applications:</b></font></p>
+<p>A typical DCS consists of functionally and/or geographically distributed digital controllers capable of executing from 1 to 256 or more regulatory control loops in one control box. The input/output devices (I/O) can be integral with the controller or located remotely via a field network. Today&rsquo;s controllers have extensive computational capabilities and, in addition to proportional, integral, and derivative (PID) control, can generally perform logic and sequential control. Modern DCSs also support neural networks and fuzzy application.<br /> DCSs may employ one or more workstations and can be configured at the workstation or by an off-line personal computer. Local communication is handled by a control network with transmission over twisted pair, coaxial, or fiber optic cable. A server and/or applications processor may be included in the system for extra computational, data collection, and reporting capability.<br /> Distributed control systems (DCSs) are dedicated systems used to control manufacturing processes that are continuous or batch-oriented, such as -</p>
+<p></p>
+<ol type="1">
+<li>Electrical power grids and electrical generation plants</li>
+<li>Environmental control systems</li>
+<li>Traffic signals</li>
+<li>Radio signals</li>
+<li>Water management systems</li>
+<li>Oil refining plants</li>
+<li>Metallurgical process plants</li>
+<li>Chemical plants</li>
+<li>Pharmaceutical manufacturing</li>
+<li>Sensor networks</li>
+<li>Dry cargo and bulk oil carrier ships etc.</li>
+</ol>
+<p><font size="4"> <b>Conclusion:</b></font></p>
+<p>The development of CENTUM CS 1000 was accomplished in a short period of time by using the parts and technologies field proven in CENTUM CS system wherever possible. It is a low end model in the CENTUM CS series and is acting as a key product for the global market taking over from the microXL system. The CENTUM series hardware has identical architecture for plants of all scales. The CENTUM CS 1000 has been assessed and updated so as to meet the ever increasing market needs.</p>
+<p></p>

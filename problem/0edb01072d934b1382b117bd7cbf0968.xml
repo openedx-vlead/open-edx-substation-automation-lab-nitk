@@ -1,0 +1,52 @@
+<problem display_name="Multiple Choice" markdown="1. Steatite is produced by mixing ___________ with small proton of ________ and ___________.&#10;&#10;  ()  Hydrated magnesium silicate,carbon,clay&#10;  ()  Hydrated magnesium silicate,carbon,nitrogen&#10;  ()  Hydrated magnesium silicate,nitrogen,clay&#10;   (x) Hydrated magnesium silicate, clay, feldspar&#10;   &#10;   2. The transmission lines and feeders are _____________&#10;&#10; ()   3-phase 3-wire circuits&#10; (x)   3-phase 3-wire circuit&#10; ()   2-phase 2-wire circuits&#10; ()   None of them&#10; &#10; 3. The transmission lines are _____________&#10;&#10;  ()  3-phase 3-wire circuits&#10;  ()  None of them&#10; (x)   3-phase 4-wire circuits&#10;  ()  2-phase 2-wire circuits&#10;  &#10;  4. The maximum generated voltage in power generating stations in advanced countries is 33kV while that in India is _________&#10;&#10;  ()  6kV&#10;  ()  44kV&#10;  ()  9kV&#10;  (x)  11kV&#10;  &#10;  &#10;  5. The sag in aluminium conductors is __________ the copper conductors.&#10;&#10;  ()  2 times lesser than&#10;  ()  Equal to&#10;  (x)  Greater than&#10;   () Lesser than">
+  <p>1. Steatite is produced by mixing ___________ with small proton of ________ and ___________.</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">Hydrated magnesium silicate,carbon,clay</choice>
+      <choice correct="false">Hydrated magnesium silicate,carbon,nitrogen</choice>
+      <choice correct="false">Hydrated magnesium silicate,nitrogen,clay</choice>
+      <choice correct="true">Hydrated magnesium silicate, clay, feldspar</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>   </p>
+  <p>   2. The transmission lines and feeders are _____________</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">3-phase 3-wire circuits</choice>
+      <choice correct="true">3-phase 3-wire circuit</choice>
+      <choice correct="false">2-phase 2-wire circuits</choice>
+      <choice correct="false">None of them</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p> </p>
+  <p> 3. The transmission lines are _____________</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">3-phase 3-wire circuits</choice>
+      <choice correct="false">None of them</choice>
+      <choice correct="true">3-phase 4-wire circuits</choice>
+      <choice correct="false">2-phase 2-wire circuits</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>  </p>
+  <p>  4. The maximum generated voltage in power generating stations in advanced countries is 33kV while that in India is _________</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">6kV</choice>
+      <choice correct="false">44kV</choice>
+      <choice correct="false">9kV</choice>
+      <choice correct="true">11kV</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>  </p>
+  <p>  </p>
+  <p>  5. The sag in aluminium conductors is __________ the copper conductors.</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">2 times lesser than</choice>
+      <choice correct="false">Equal to</choice>
+      <choice correct="true">Greater than</choice>
+      <choice correct="false">Lesser than</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>
