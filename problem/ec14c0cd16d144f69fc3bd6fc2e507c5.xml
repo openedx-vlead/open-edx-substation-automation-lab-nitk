@@ -1,0 +1,48 @@
+<problem display_name="Multiple Choice" markdown="1. Sectionalisers should have breakers (or relays with breakers) or reclosers working as a backup device. True or False?&#10;&#10;  ()  False&#10;  (x)  True&#10;  &#10;  2. Zone of operation of the fuse is limited by&#10;&#10;  (x)  Both minimum melting time and maximum clearing time&#10;   () Maximum clearing time&#10;   () Minimum melting time&#10;   () None&#10;   &#10;   3. Consider 5P20 class CT ratio: 1000/1, Normal rated current of 900 A. Consider a overloading of 10 % while calculating plug setting of the relay. Let the initial set TMS be 0.15. Relay settings has ranges for PSM of 50% to 200% in steps of 25% and TMS setting range of 0.1 to 1.1 in step of 0.05. The operating time for a three phase fault of 10 kA is less for&#10;&#10; ()   IEC Normal inverse&#10; ()   Same in all the cases&#10; (x)   IEC Extreme inverse&#10;  ()  IEC Very inverse&#10;4. Autoreclosers are more attractive than relays in distribution feeder protection as&#10;&#10;  ()  It has inbuilt breaker&#10;  ()  It has more number of shot capability&#10;  (x)  Both it has inbuilt breaker and it has more number of shot capability&#10;  ()  None of the above&#10;  &#10;  5. Zone of operation of the fuse is limited by&#10;&#10;  ()  Minimum melting time&#10; ()   None&#10; ()   Maximum clearing time&#10; (x)   Both minimum melting time and maximum clearing time">
+  <p>1. Sectionalisers should have breakers (or relays with breakers) or reclosers working as a backup device. True or False?</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">False</choice>
+      <choice correct="true">True</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>  </p>
+  <p>  2. Zone of operation of the fuse is limited by</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="true">Both minimum melting time and maximum clearing time</choice>
+      <choice correct="false">Maximum clearing time</choice>
+      <choice correct="false">Minimum melting time</choice>
+      <choice correct="false">None</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>   </p>
+  <p>   3. Consider 5P20 class CT ratio: 1000/1, Normal rated current of 900 A. Consider a overloading of 10 % while calculating plug setting of the relay. Let the initial set TMS be 0.15. Relay settings has ranges for PSM of 50% to 200% in steps of 25% and TMS setting range of 0.1 to 1.1 in step of 0.05. The operating time for a three phase fault of 10 kA is less for</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">IEC Normal inverse</choice>
+      <choice correct="false">Same in all the cases</choice>
+      <choice correct="true">IEC Extreme inverse</choice>
+      <choice correct="false">IEC Very inverse</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>4. Autoreclosers are more attractive than relays in distribution feeder protection as</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">It has inbuilt breaker</choice>
+      <choice correct="false">It has more number of shot capability</choice>
+      <choice correct="true">Both it has inbuilt breaker and it has more number of shot capability</choice>
+      <choice correct="false">None of the above</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>  </p>
+  <p>  5. Zone of operation of the fuse is limited by</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">Minimum melting time</choice>
+      <choice correct="false">None</choice>
+      <choice correct="false">Maximum clearing time</choice>
+      <choice correct="true">Both minimum melting time and maximum clearing time</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

@@ -1,0 +1,8 @@
+<p></p>
+<p class="MsoNormal" style="line-height: 150%;"><span style="font-size: 12pt; line-height: 150%; font-family: 'Arial','sans-serif';" lang="EN-IN"> </span></p>
+<p><font size="5"><u><b>Aim of the experiment :Circuit Breaker Status Indication from field input</b></u></font> <br /><br /> Yokogawa CS 1000 (DCS) is having Digital Input Module with 16 input ports. These ports will get inputs from field devices such as circuit breakers and these statuses of the circuit breaker will be displayed on Human-Machine Interface of workstation. When the circuit breaker is ON corresponding Input ports of Digital Input module will be shorted. When circuit breaker is OFF corresponding Input parts of Digital Input module will be open. <br /> <br /> This process is simulated as below:<br /> The Input from various Circuit breakers in the field is simulated using Array of switches, connected to parts of DI module. </p>
+<ol type="1">
+<li>Close switch connected to Digital Input1 (DI1) indicates CB1 is closed,Green color is displayed for CB1.</li>
+<li>Open switch connected to Digital Input2 (DI2) indicates CB2 is open, Red color is displayed for CB2.</li>
+</ol>
+<p>This process is followed for all circuit breakers in the field.</p>

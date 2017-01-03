@@ -1,0 +1,51 @@
+<problem display_name="Multiple Choice" markdown="1. The important characteristics of the fluid used in Circuit Breaker are :-&#10;&#10; ()   It should have good thermal and chemical stability&#10; ()   Non- inflammability and high thermal conductivity&#10; ()   It should have high dielectric strength and are extinguishing ability&#10; (x)   All&#10; &#10; 2. The main function of substations are&#10;&#10;  ()  To decrease the voltage to a value appropriate for local distribution&#10;  ()  To receive energy transmitted at high voltage from the generating stations&#10;  ()  To provide switching facilities&#10;   (x) All&#10;   &#10;   3. The advantage of using oil in Oil Circuit Breaker as an arc quenching medium is:&#10;&#10;   (x) It has high dielectric strength and as a result of decomposition of oil, it has good cooling property&#10;  ()  Highly inflammable&#10;  ()  It has high dielectric strength&#10;  ()  As a result of decomposition of oil, it has good cooling property&#10;  &#10;  4. Aluminium has _______ the resistivity of copper.&#10;&#10; ()   24 times&#10;  ()  12 times&#10;  ()  3 times&#10;  (x)  16 times&#10;  &#10;  5. Instrument Transformer are used because&#10;&#10;  ()  It provides more safety&#10;  ()  It is cheap&#10;  ()  It is not practicable to connect instruments and meters directly to the lines in high voltage circuits&#10;(x)    Both it provides more safety and it is not practicable to connect instruments and meters directly to the lines in high voltage circuits">
+  <p>1. The important characteristics of the fluid used in Circuit Breaker are :-</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">It should have good thermal and chemical stability</choice>
+      <choice correct="false">Non- inflammability and high thermal conductivity</choice>
+      <choice correct="false">It should have high dielectric strength and are extinguishing ability</choice>
+      <choice correct="true">All</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p> </p>
+  <p> 2. The main function of substations are</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">To decrease the voltage to a value appropriate for local distribution</choice>
+      <choice correct="false">To receive energy transmitted at high voltage from the generating stations</choice>
+      <choice correct="false">To provide switching facilities</choice>
+      <choice correct="true">All</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>   </p>
+  <p>   3. The advantage of using oil in Oil Circuit Breaker as an arc quenching medium is:</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="true">It has high dielectric strength and as a result of decomposition of oil, it has good cooling property</choice>
+      <choice correct="false">Highly inflammable</choice>
+      <choice correct="false">It has high dielectric strength</choice>
+      <choice correct="false">As a result of decomposition of oil, it has good cooling property</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>  </p>
+  <p>  4. Aluminium has _______ the resistivity of copper.</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">24 times</choice>
+      <choice correct="false">12 times</choice>
+      <choice correct="false">3 times</choice>
+      <choice correct="true">16 times</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>  </p>
+  <p>  5. Instrument Transformer are used because</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">It provides more safety</choice>
+      <choice correct="false">It is cheap</choice>
+      <choice correct="false">It is not practicable to connect instruments and meters directly to the lines in high voltage circuits</choice>
+      <choice correct="true">Both it provides more safety and it is not practicable to connect instruments and meters directly to the lines in high voltage circuits</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>
